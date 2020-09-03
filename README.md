@@ -1,3 +1,0 @@
-# CQG-test
- 
-yarn start
