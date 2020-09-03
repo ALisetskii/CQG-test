@@ -1,0 +1,28 @@
+.errorWindowHidden {
+    display: none;
+}
+
+.errorWindow {
+    display: block;
+    position: absolute;
+    top: 0px;
+    width: 100vw;
+    height: 100vh;
+    color: rgb(214, 211, 211);
+}
+
+.errorBlock {
+    background-color: rgb(42, 35, 35);
+    padding: 20px;
+    border: solid red 6px;
+    width: 500px;
+    margin: 300px auto;
+}
+
+.errorBlock h3 {
+    margin: 5px;
+}
+
+.errorBlock button {
+    margin: 5px;
+}

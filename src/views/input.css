@@ -1,0 +1,28 @@
+
+.inputContainer {
+    max-width: 1000px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.input {
+    font-family: 'Roboto', sans-serif;
+    border: solid lightblue 6px;
+    max-width: 600px;
+    min-width: 300px;
+}
+
+.button {
+    margin: 5px;
+    font-size: 0.8rem;
+    border-radius: 3px;
+    border: none;
+    padding: 8px;
+}
+
+.button:hover {
+    background-color: rgb(255, 254, 254);
+
+}

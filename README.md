@@ -1,2 +1,3 @@
 # CQG-test
  
+yarn start
