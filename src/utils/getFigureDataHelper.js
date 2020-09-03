@@ -1,9 +1,9 @@
 class getFigureDataHelper {
 
     static getFigureCoords(input, type, index) {
-        const lineCoordsRegExp = /(-p (\[\d+, \d+\])| \[\d+, \d+\] ){2}/;     // обязательный пробел после '-p' и после скобок
-        const rectangleCoordsRegExp = /(-p (\[\d+, \d+\])| \[\d+, \d+\] ){2}/;
-        const triangleCoordsRegExp = /-p (\[\d+, \d+\]| \[\d+, \d+\] ){3}/;
+        const lineCoordsRegExp = /(-p (\[\d+, \d+\]) | \[\d+, \d+\]){2}/;     // обязательный пробел после '-p' и после скобок
+        const rectangleCoordsRegExp = /(-p (\[\d+, \d+\]) |\[\d+, \d+\]){2}/;//
+        const triangleCoordsRegExp = /-p (\[\d+, \d+\] |\[\d+, \d+\]){3}/;
         const circleCoordsRegExp = /-p \[\d+, \d+\] -r \d+/;
         const ellipseCoordsRegExp = /-p \[\d+, \d+\] -r1 \d+ -r2 \d+/;
         const pointsRegExp = /\[\d+, \d+\]/gm;
